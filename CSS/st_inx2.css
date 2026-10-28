@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 100px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover {
+    color: #ff8c00;
+}
+
+main {
+    padding: 25px 15px;
+}
+
+h1 {
+    color: #e65c00;
+}
+
+.carrusel {
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    margin: 25px auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.carrusel img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: none;
+    animation: aparecer 1s;
+}
+
+.carrusel img:first-child {
+    display: block;
+}
+
+@keyframes aparecer {
+    from { opacity: 0.3; }
+    to { opacity: 1; }
+}
+
+.boton {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #e65c00;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #bd4800;
+}

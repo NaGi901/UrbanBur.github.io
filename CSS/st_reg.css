@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    min-height: 110vh;
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes/regis.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro {
+    background-color: #afe7e9;
+    opacity: 0.8;
+    width: 315px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.registro img {
+    width:200px;
+}
+
+h1 {
+    color: #c05b08;
+    font-size: 35px;
+}
+
+.registro p {
+    color: #490303;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 0;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-indent: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: #e65c00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #922200;
+}
+
+.enlace {
+    font-size: 20px;
+}
+
+a {
+    color: #271164;
+    font-size: 20px;
+}
+

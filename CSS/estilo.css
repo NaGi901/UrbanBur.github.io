@@ -1,0 +1,40 @@
+body{
+background-image: url("../imagenes/background.png");
+background-size: cover;
+
+font-family: sans-serif;
+color: #EDBC18;
+text-align: center;
+font-size: 35px;
+}
+
+.logo {
+width: 300px;
+}
+
+
+h1 {
+color: #EA43EA;
+font-size: 80px;
+
+}
+
+button {
+background-color: #EDBC18;
+color: red;
+padding: 24px 50px;
+border: 4px solid white;
+border-radius: 18px;
+font-size: 40px;
+cursor: pointer;
+transition: 0.8s;
+}
+
+button:hover,
+a:hover,
+.boton:hover {
+    transform: scale(1.1);
+    background-color: #96480D;
+    transition: 0.3s;
+    cursor: pointer;
+}

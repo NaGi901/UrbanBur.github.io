@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #222;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 80px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover {
+    color: #ff8c00;
+}
+
+.formulario {
+    background-color: white;
+    width: 320px;
+    max-width: calc(100% - 70px);
+    padding: 25px;
+    margin: 60px auto;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    color: #e65c00;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 0;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #e65c00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bd4800;
+}

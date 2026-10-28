@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacer pedido - Urban Burgers</title>
+    <link rel="stylesheet" href="css/pedido.css">
+</head>
+<body>
+
+    <header>
+        <img src="imagenes/logo.png" alt="Urban Burgers">
+        <nav>
+            <a href="index2.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="https://www.google.com/maps/place/Urban58/@4.6386936,-74.1901275,13z/data=!4m10!1m2!2m1!1smaps+urban+burger!3m6!1s0x8e3f9fe1a83f3a81:0xbd85cba09a3a6b3a!8m2!3d4.6282615!4d-74.1397869!15sChFtYXBzIHVyYmFuIGJ1cmdlcpIBFGZhc3RfZm9vZF9yZXN0YXVyYW504AEA!16s%2Fg%2F11nvxdqh0h?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D">Dónde estamos</a>
+            <a href="pedido.html">Hacer pedido</a>
+        </nav>
+    </header>
+
+    <main class="formulario">
+        <h1>¡Haz tu pedido!</h1>
+        <p>Disfruta el sabor de Urban Burgers.</p>
+
+        <form onsubmit="alert('¡Pedido de prueba realizado!'); return false;">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="text" placeholder="Tu dirección" required>
+
+            <select required>
+                <option value="">Elige tu hamburguesa</option>
+                <option>Hamburguesa clásica</option>
+                <option>Hamburguesa doble</option>
+                <option>Hamburguesa especial</option>
+            </select>
+
+             <button onclick="alert('No tienes dinero')">Pagar</button>
+        </form>
+    </main>
+
+</body>
+</html>

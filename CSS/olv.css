@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes/olvide.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuperar {
+    background-color: #9b798c;
+    opacity: 0.8;
+    width: 320px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.recuperar img {
+    width: 200px;
+}
+
+h1 {
+    color: #722603;
+    font-size: 25px;
+}
+
+p {
+    color: #1a0101;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 0;
+    margin: 10px 0;
+    border: 2px solid #ff62dd;
+    border-radius: 6px;
+    text-indent: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #9b163e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a0515;
+}
+
+a {
+    color: #5a1d22;
+}

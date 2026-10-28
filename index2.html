@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Burgers</title>
+    <link rel="stylesheet" href="css/st_inx2.css">
+</head>
+<body>
+
+    <header>
+        <img src="imagenes/logo.png" alt="Urban Burgers">
+
+        <nav>
+            <a href="menu.html">Menú</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="https://www.google.com/maps/place/Urban58/@4.6386936,-74.1901275,13z/data=!4m10!1m2!2m1!1smaps+urban+burger!3m6!1s0x8e3f9fe1a83f3a81:0xbd85cba09a3a6b3a!8m2!3d4.6282615!4d-74.1397869!15sChFtYXBzIHVyYmFuIGJ1cmdlcpIBFGZhc3RfZm9vZF9yZXN0YXVyYW504AEA!16s%2Fg%2F11nvxdqh0h?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D">Dónde estamos</a>
+            <a href="pedido.html">Hacer pedido</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>¡Bienvenido a Urban Burgers!</h1>
+        <p>El sabor que hace especial cada momento.</p>
+
+        <div class="carrusel">
+            <img src="imagenes/promo1.png" alt="Hamburguesa clásica">
+            <img src="imagenes/promo2.png" alt="Hamburguesa especial">
+            <img src="imagenes/promo3.png" alt="Hamburguesas Urban Burgers">
+        </div>
+
+        <a class="boton" href="pedido.html">¡Pide ahora!</a>
+    </main>
+
+<script>
+    let fotoActual = 0;
+    const fotos = document.querySelectorAll(".carrusel img");
+
+    setInterval(function() {
+        fotos[fotoActual].style.display = "none";
+
+        fotoActual = (fotoActual + 1) % fotos.length;
+
+        fotos[fotoActual].style.display = "block";
+    }, 3000);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+body {
+    background-image: url("../imagenes/sesion.gif");
+    background-size: cover;
+    color: #523b9e;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+
+p{
+    color: #a7661be5;
+    font-size: 30px}
+
+h1 {
+    color: #ff510d;
+    font-size: 60px;
+}
+
+.login {
+    background-color: #a19a99;
+    background-size: cover;
+    opacity: 0.9;
+    width: 400px;
+    margin: 60px auto;
+    padding: 80px;
+    border-radius: 60px;
+}
+}
+.logo {
+    width:200px;
+}
+
+
+.login input,
+.login select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid #796d6de5;
+    max-width: 100%;
+    
+}
+
+.login input[type="submit"] {
+    background-color: #4C851E;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+
+.login a {
+    color: #aa05aa;
+    
+}
